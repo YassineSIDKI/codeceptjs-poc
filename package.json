@@ -1,0 +1,19 @@
+{
+  "name": "codeceptjs-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "add:page": "npx codeceptjs gpo",
+    "add:step": "npx codeceptjs go --type step",
+    "codecept:ui": "./node_modules/.bin/codecept-ui"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@codeceptjs/ui": "^0.4.2",
+    "codeceptjs": "^3.0.2",
+    "playwright": "^1.6.2"
+  }
+}
